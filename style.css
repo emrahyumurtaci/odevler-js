@@ -1,0 +1,68 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: azure;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+
+}
+#title{
+    text-align: center;
+    font-size: 50px;
+
+}
+#inputText{
+    width: 300px;
+    height: 45px;
+    border: 3px solid orange;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    border-radius: 10px;
+    color: purple;
+}
+#buttonAdd{
+    width: 80px;
+    height: 45px;
+    border: 1px solid black;
+    vertical-align: middle;
+    outline: none;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: greenyellow;
+    cursor: pointer;
+    text-align:center;
+}  
+#buttonAdd:active{
+    background-color: green;
+}
+#buttonClear{
+    width: 105px;
+    height: 45px;
+    border: 1px solid black;
+    vertical-align: middle;
+    outline: none;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    cursor: pointer;
+    text-align:center;
+}
+#buttonClear:active{
+    background-color: blue;
+}
+.paragraf{
+    margin: 0;
+    cursor: pointer;
+    color: brown;
+    font-size: 25px;
+    text-transform:capitalize;
+    margin-top: 25px;
+    
+
+}
